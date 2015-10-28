@@ -1,0 +1,41 @@
+[user]
+	name = Rajesh Mathew
+	email = r@gmail.com
+[apply]
+    whitespace = warn
+[alias]
+    st = status
+    ci = commit
+    amd = commit --amend
+    co = checkout
+    br = branch
+    pick = add -p
+    pl = pull --verbose
+    lg = log --graph --date=short --date-order
+    lt = log --graph --date=short --topo-order
+    pur = pull --rebase
+    prom = pull --rebase origin master
+    pom = push origin master
+    what = whatchanged -p
+    df = diff --color-words
+    di = diff --ignore-space-change
+    staged = diff --cached
+    unstage = reset HEAD
+    credits = shortlog -sn --no-merges
+    changelog = log --pretty=oneline --abbrev-commit --graph
+    cherry = cherry-pick
+    throw = checkout -p
+    discard = checkout -p
+    goback = reset --hard
+[blame]
+    date=short
+[color]
+    branch = auto
+    diff = auto
+    interactive = auto
+    ui = always
+    pager = true
+[color "status"]
+    untracked = black
+    changed = red
+    added = green
