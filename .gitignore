@@ -1,0 +1,38 @@
+#python cruft
+*.pyc
+*.egg
+*.egg-info
+.noseids
+*prof*
+pip-log.txt
+
+#test cruft
+*_test
+.coverage
+
+#sublime cruft
+*.tmlanguage.cache
+*.tmPreferences.cache
+*.stTheme.cache
+*.sublime-workspace
+
+#emacs cruft
+*~
+*#*
+
+# webstorm cruft
+*.idea
+node_modules
+coverage
+test-results.xml
+gruntSrc
+dist
+
+
+#virtualenv cruft
+bin
+lib
+include
+bootstrap.py
+develop-eggs
+.installed.cfg
